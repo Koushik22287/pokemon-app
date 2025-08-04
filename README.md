@@ -1,5 +1,43 @@
 # Vue 3 + Vite
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+🔗 Live Demo: [pokemonhc.netlify.app](https://pokemonhc.netlify.app)
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+Getting Started (Local Setup)
+
+# Prerequisites
+
+- Node.js 
+- npm 
+
+# Clone  the repository
+
+`bash
+git clone https://github.com/Koushik22287/pokemon-app
+cd pokemon-app
+
+#Install dependencies
+npm install
+
+#Run in development mode
+npm run dev  
+-This will start the app at: http://localhost:5173
+
+#Build for production
+npm run build
+-The production-ready files will be in the dist/ folder.
+
+##Deployment (Netlify)
+Deployed using Netlify via GitHub. To deploy your own:
+
+Push the code to GitHub
+
+Log into Netlify
+
+Click "Add New Site" → "Import from Git"
+
+Select repo → Set build command as npm run build
+
+Set publish directory as dist
+
+Click "Deploy"
+
